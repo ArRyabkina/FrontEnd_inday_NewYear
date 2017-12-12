@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font: 20px Verdana;
+    color: beige;
+    background-image: url('bg.jpg');
+    background: 100%;
+}
+
+.vetki {
+    height: 340px;
+    border: block;
+    width: 1370px;
+}
+
+.nadpis {
+    height: 200px;
+    position: absolute;
+    top: 60px;
+    left: 320px;
+}
+
+.header {
+    height: 50px;
+    box-shadow: 1px 1px 5px rgba(219, 103, 18, 0.52);
+    box-sizing: border-box;
+    padding-left: 350px
+}
+
+.header a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: #de1f1f;
+    
+}
+
+.bokov {
+    position: absolute;
+    top: 400px;
+    height: 400px;
+    width: 60px;
+    padding-left: 5px;
+    box-sizing: border-box;
+        left: 20px
+}
+
+.link-img {
+    height: 40px;
+    margin-top: 10px;
+}
+
+.link-img:hover {
+    height: 60px;
+    transition: 1s;
+}
+
+.slider {
+    background-image: url('1.jpg');
+    height: 370px;
+    width: 1200px;
+    margin-left: 100px;
+    background-size: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 25px rgba(69, 33, 222, 0.52);
+}
+
+.slider img {
+    width: 50px;
+    height: 50px;
+    margin-top: 150px;
+    background: white;
+    border-radius: 25px
+}
+
+.left {
+    margin-left: 10px;
+    margin-right: 1060px;
+}
+
+.right {
+    transform: scale(-1, 1);
+}
+
+.search {
+    height: 50px;
+    width: 1200px;
+    margin: 30px auto;  
+    box-shadow: 5px 5px 15px rgba(196, 32, 209, 0.52);
+}
+
+.kat {
+    position: absolute;
+    height: 100px;
+    left: -200px;
+    top: 100px
+}
+
+.search input {
+    width: 400px;
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 50px;
+    margin-right: 5px;
+    border: 1px solid rgba(181, 83, 83, 0.86)
+}
+
+.search button{
+    padding: 10px 20px;
+    color: white;
+    background: #93adcb;
+    border: none;
+    border-radius: 5px
+}
